@@ -1,0 +1,33 @@
+body {
+  background-color: antiquewhite;
+}
+
+button {
+  margin: 20px;
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin: 20px;;
+}
+
+span {
+  font-weight: larger;
+  text-decoration: underline;
+}
+
+
+/* Styling the result HTML element */
+.result {
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(0, 255, 255, 0.582);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+}
+
